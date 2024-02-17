@@ -14,7 +14,7 @@ int main(int ac, char **av)
 	int	left[4];
 	int	right[4];
 
-	// Initialisation de la grille à zéro
+	// Initialisation de la grille à zéro (si ne passe pas la norminette => boucles imbriquées while)
 	int grid[4][4] = {{0}};
 
 	// Vérifie si le programme est appelé avec le bon nombre d'arguments et si l'entrée est valide
